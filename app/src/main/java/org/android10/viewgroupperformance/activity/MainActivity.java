@@ -3,6 +3,7 @@ package org.android10.viewgroupperformance.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import org.android10.viewgroupperformance.R;
@@ -16,8 +17,16 @@ public class MainActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    Log.d("Gintonic", "MainActivity onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
     setContentView(R.layout.activity_main);
     mapGUI();
+    Boy.fuckYou();
+  }
+
+  @Override
+  protected void onResume() {
+    super.onResume();
+    Log.d("Gintonic", "MainActivity onResume() called");
   }
 
   /**
