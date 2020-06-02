@@ -11,15 +11,15 @@
       android:layout_height="match_parent"
       />
 
-  <org.android10.viewgroupperformance.component.MyLinearLayout
-      android:id="@+id/linearLayoutTwo"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      />
+<!--  <org.android10.viewgroupperformance.component.MyFrameLayout-->
+<!--      android:id="@+id/linearLayoutTwo"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="match_parent"-->
+<!--      />-->
 
-  <org.android10.viewgroupperformance.component.MyLinearLayout
-      android:id="@+id/linearLayoutThree"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      />
+<!--  <org.android10.viewgroupperformance.component.MyRelativeLayout-->
+<!--      android:id="@+id/linearLayoutThree"-->
+<!--      android:layout_width="match_parent"-->
+<!--      android:layout_height="match_parent"-->
+<!--      />-->
 </LinearLayout>

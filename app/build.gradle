@@ -4,6 +4,7 @@ import org.aspectj.tools.ajc.Main
 
 buildscript {
   repositories {
+    jcenter()
     mavenCentral()
   }
   dependencies {
@@ -14,6 +15,7 @@ buildscript {
 apply plugin: 'com.android.application'
 
 repositories {
+  jcenter()
   mavenCentral()
 }
 
